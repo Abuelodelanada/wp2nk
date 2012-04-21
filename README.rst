@@ -13,4 +13,14 @@ Move this files to nikola 'posts' folder and run::
      $ doit
      $ doit deploy
 
+
 Enjoy and drink a beer!
+
+
+Requirements
+------------
+
+ * python
+ * MySQLdb (python module)
+ * mysql-client
+ * pandoc

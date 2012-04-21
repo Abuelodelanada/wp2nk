@@ -33,6 +33,7 @@ post_tags = cursor.fetchall()
 tags_dict = {}
 
 def html2rst(html):
+    # http://johnpaulett.com/2009/10/15/html-to-restructured-text-in-python-using-pandoc/
     p = subprocess.Popen(['pandoc', '--from=html', '--to=rst'], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
     return p.communicate(html)[0]
 
